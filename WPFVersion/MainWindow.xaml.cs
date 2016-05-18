@@ -29,9 +29,9 @@ namespace WPFVersion
 
 		private void start_Click(object sender, RoutedEventArgs e)
 		{ 
-				var a = new Tournament();
-				a.Visibility = Visibility.Visible;
-				a.Activate();
+			var a = new Tournament(players.list.Items.Cast<string>());
+			a.Visibility = Visibility.Visible;
+			a.Activate();
 		}
 	}
 }

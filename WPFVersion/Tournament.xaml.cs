@@ -19,9 +19,17 @@ namespace WPFVersion
 	/// </summary>
 	public partial class Tournament : Window
 	{
+		
+
 		public Tournament()
 		{
 			InitializeComponent();
+		}
+
+		public Tournament(IEnumerable<string> enumerable)
+		{
+			InitializeComponent();
+
 		}
 	}
 }
