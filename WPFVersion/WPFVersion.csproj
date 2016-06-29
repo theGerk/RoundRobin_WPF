@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="IUndoRedo.cs" />
     <Compile Include="Tournament.xaml.cs">
       <DependentUpon>Tournament.xaml</DependentUpon>
     </Compile>
